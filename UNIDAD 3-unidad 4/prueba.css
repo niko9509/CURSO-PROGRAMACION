@@ -1,0 +1,35 @@
+h2{
+    color:blue; /* esto pinta las letras*/
+  font-size: 25px; /* tamaño de las letras*/
+
+} 
+h1{
+   color:green;
+   background-color: yellow; /* pintar los fondos*/
+   text-align: center; /* centrar los titulos al medio*/
+
+
+}
+
+p{
+    color:red;
+    line-height: 25px;/*espacio entre linea y linea de parrafo*/
+}
+
+
+.destacados{
+    color:orange;
+    font-weight: bold; /*peso en este caso negrita*/
+    font-style: italic;
+    font-family: arial; /* familia tipofraica*/
+}
+
+#caja{
+    background-color: yellow;
+    width: 350px;
+    height: 350px;
+    border-right: 3px dashed red;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 300px;
+}
