@@ -1,12 +1,15 @@
 h2{
-    color:blue; /* esto pinta las letras*/
+    color:purple; /* esto pinta las letras*/
+    text-shadow: 4px 0px 2px rgba(2,36,241,0.6);
   font-size: 25px; /* tamaño de las letras*/
 
 } 
 h1{
-   color:green;
-   background-color: yellow; /* pintar los fondos*/
+   color:black;
+   background-color: rgb(182, 182, 106); /* pintar los fondos*/
    text-align: center; /* centrar los titulos al medio*/
+   font-family: 'Roboto', sans-serif;
+
 
 
 }
@@ -18,6 +21,8 @@ p{
 
 
 .destacados{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Roboto', sans-serif;
     color:orange;
     font-weight: bold; /*peso en este caso negrita*/
     font-style: italic;
@@ -25,7 +30,16 @@ p{
 }
 
 #caja{
-    background-color: yellow;
+    border-radius: 0px 200px 168px 200px;
+-webkit-border-radius: 0px 200px 168px 200px;
+-moz-border-radius: 0px 200px 168px 200px;
+box-shadow: 16px 5px 20px 0px rgba(0,0,0,0.37);
+-webkit-box-shadow: 16px 5px 20px 0px rgba(0,0,0,0.37);
+-moz-box-shadow: 16px 5px 20px 0px rgba(0,0,0,0.37);
+background: #6bf3f3;
+background: linear-gradient(90deg,#6bf3f3 0%, #fffafa 80%);
+background: -webkit-linear-gradient(90deg,#6bf3f3 0%, #fffafa 80%);
+background: -moz-linear-gradient(90deg,#6bf3f3 0%, #fffafa 80%);
     width: 350px;
     height: 350px;
     border-right: 3px dashed red;
