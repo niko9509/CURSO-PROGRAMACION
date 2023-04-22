@@ -1,0 +1,23 @@
+.contenedor{
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    flex-direction: column;
+    align-items: end;
+    border: 1px solid black;
+}
+.rojo{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    
+}
+.azul{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+.verde{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
